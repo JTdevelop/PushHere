@@ -1,14 +1,17 @@
 package com.jtorrez.game.pushhere;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.BottomNavigationView.OnNavigationItemSelectedListener;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
 
+
+/**
+ *  Created by Justin Torrez on 6/22/2018
+ */
 public class MainActivity extends AppCompatActivity
     implements BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -21,7 +24,7 @@ public class MainActivity extends AppCompatActivity
     BottomNavigationView navigation = findViewById(R.id.navigation);
     navigation.setOnNavigationItemSelectedListener(this);
 
-    loadFragment(new InstructionsFragment());
+    loadFragment(new PlayFragment());
   }
 
   private boolean loadFragment(Fragment fragment) {
