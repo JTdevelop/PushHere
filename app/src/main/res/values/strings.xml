@@ -3,4 +3,7 @@
   <string name="title_instructions">Instructions</string>
   <string name="title_play">Play</string>
   <string name="title_about">About</string>
+  <string name="about_section">This Android Game project   was created by Justin Torrez   Deep Dive Java 4 Cohortian   June 22nd 2018</string>
+  <string name="instructions_section">Playing PUSH HERE is easy!  All you have to do is  follow the instructions   listed on each puzzle screen.</string>
+  <string name="play_section">This is the play section!</string>
 </resources>

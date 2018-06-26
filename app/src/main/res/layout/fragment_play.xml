@@ -9,7 +9,7 @@
     android:layout_height="wrap_content"
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
-    android:text="This is the play section!"
+    android:text="@string/play_section"
     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
     />
 
