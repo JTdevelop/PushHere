@@ -17,7 +17,7 @@ public class PlayFragment extends Fragment {
   @Override
   public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
       @Nullable Bundle savedInstanceState) {
-    Toast.makeText(getActivity(),"TEST YOUR MIGHT", Toast.LENGTH_LONG).show();
+    Toast.makeText(getActivity(),"TEST YOUR MIGHT", Toast.LENGTH_SHORT).show();
     return inflater.inflate(R.layout.fragment_play, null);
   }
 }
