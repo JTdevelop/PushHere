@@ -27,6 +27,16 @@ public class MainActivity extends AppCompatActivity
     loadFragment(new PlayFragment());
   }
 
+  @Override
+  protected void onStart() {
+    super.onStart();
+  }
+
+  @Override
+  protected void onStop() {
+    super.onStop();
+  }
+
   private boolean loadFragment(Fragment fragment) {
     if(fragment != null) {
 
